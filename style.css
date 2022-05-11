@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /* box-sizing: border-box; */
+}
+body{
+    background: gray;
+}
+.link{
+    float: right;
+    margin-top: -200px;
+    margin-right: 200px;
+    font-size: 45px;
+}
+a{
+    color: blueviolet;
+}
+.nav{
+    background: black;
+    margin-top: 200px;
+
+}
+nav ul li {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+}
+a.active,a:hover{
+    background: rgba(132, 231, 132, 0.593);
+    transition: .5s;
+}
+
+.search-box{
+    position: absolute;
+    margin-top: 50px;
+    left: 50%;
+    top: 31.4%;
+    background-color: rgba(0, 128, 0, 0.709);
+    transform: translate(-50%,-50%);
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+   
+}
+
+.search-text{
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 20px;
+    transition: 0.4s;
+    padding: 0;
+    line-height: 28px;
+    
+}
+.search-btn{
+    color: black;
+    float: right;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(0, 128, 0, 0.709);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    font-size: 30px;
+    height: 57px;
+    width: 900px;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+    
+    border:solid 0.5px;
+}
+.daniel p{
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.698);
+}
+.daniel{
+    margin-left: 300px;
+    
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.daniel p a{
+    color:rgba(255, 0, 0, 0.698);
+}
+.marley p {
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.698);
+}
+
+.marley {
+    margin-left: 300px;
+
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.marley p a {
+    color: rgba(255, 0, 0, 0.698);
+}
+.dada p {
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.698);
+}
+
+.dada {
+    /* margin-left: 300px; */
+
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.dada p a {
+    color: rgba(255, 0, 0, 0.698);
+}
+.kilo p {
+    font-size: 30px;
+    color: rgba(255, 0, 0, 0.698);
+}
+
+.kilo {
+    /* margin-left: 300px; */
+
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.kilo p a {
+    color: rgba(255, 0, 0, 0.698);
+}
