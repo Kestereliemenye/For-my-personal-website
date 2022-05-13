@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 
 }
 body{
@@ -31,4 +32,65 @@ body{
     text-decoration: none;
     display: block;
 
+}
+.active,a:hover{
+    background: skyblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.body{
+    background: white;
+    text-align: center;
+    font-size: 40px;
+}
+.lild{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+    
+}
+.lild img{
+    margin-left: 500px;
+}
+.lil{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:30px;
+}
+.lild a{
+    
+    text-transform: uppercase;
+    font-size:30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+}
+.lild {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.buga img {
+    margin-left: 500px;
+}
+
+.bug {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.buga a {
+
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
 }
